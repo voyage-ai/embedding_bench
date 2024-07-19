@@ -1,0 +1,7 @@
+numpy==2.0.0
+pymilvus==2.4.4
+tqdm==4.66.4
+python-dotenv==1.0.1
+voyageai==0.2.3
+openai==1.36.0
+tiktoken==0.7.0

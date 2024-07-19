@@ -1,0 +1,31 @@
+# Exclude environment variables file
+.env
+
+# Exclude data directory
+data/
+
+# Exclude Python bytecode
+*.pyc
+
+# Additional common Python ignores:
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[c]
+*.pyo
+*.pyd
+*.so
+*.egg
+*.egg-info
+dist/
+build/
+eggs/
+parts/
+bin/
+var/
+sdist/
+develop-eggs/
+.wheelhouse/
+.cache/
+.installed.cfg
+*.egg-info/
+MANIFEST
