@@ -1,6 +1,26 @@
 # Head-to-Head Comparison of Embedding Models
 
-This repository provides a simple and cost-efficient method for comparing the retrieval quality of several embedding models using a collection of unpaired queries and documents. It leverages GPT to score the top $k$ documents retrieved by different models and outputs the average score.
+This repository offers a straightforward and cost-effective method to compare the retrieval quality of various embedding models using a collection of unpaired queries and documents. For each embedding model, the process involves leveraging a language model to score the top $k$ documents retrieved and then calculating the average score across these documents and queries. This allows users to perform a head-to-head comparison by analyzing the average scores.
+
+**Detailed Steps**:
+
+*Document Embedding and Storage*:
+- Embed all documents using the embedding model.
+- Insert the embeddings into a vector database.
+
+*Query Processing*:
+- For each query:
+    - Generate the query embedding.
+    - Retrieve the top $k$ nearest documents based on the embedding.
+
+*Document Scoring*:
+- For each pair of (query, retrieved document):
+    - Use a language model to evaluate if the document contains useful information for answering the query.
+
+*Score Calculation*:
+- Calculate the average score for the top $k$ documents for each query.
+
+We repeat this process for each embedding model and output the overall average score. Users can perform a head-to-head comparison by analyzing the average scores.
 
 ## Installation
 

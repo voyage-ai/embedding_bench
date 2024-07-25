@@ -1,0 +1,10 @@
+{"id": "000000000", "text": "Natural language processing has seen significant advancements with the development of transformers and large language models like GPT-3 and BERT."}
+{"id": "000000001", "text": "Embedding models enhance search engine results by providing more relevant and contextually accurate responses to user queries."}
+{"id": "000000002", "text": "Vector databases store high-dimensional vectors, which are crucial for efficient similarity searches in AI applications such as recommendation systems."}
+{"id": "000000003", "text": "Transfer learning allows a model trained on one task to be repurposed for a different but related task, significantly reducing the amount of data and time required for training."}
+{"id": "000000004", "text": "Reinforcement learning focuses on learning from interactions with an environment to maximize cumulative rewards, whereas supervised learning relies on labeled datasets to learn from."}
+{"id": "000000005", "text": "The rise of unsupervised learning techniques has enabled more robust and scalable AI models, reducing the dependency on large labeled datasets."}
+{"id": "000000006", "text": "Explainable AI aims to make the decision-making process of models transparent and understandable to humans, which is critical for ethical AI development."}
+{"id": "000000007", "text": "Adversarial training is a technique used to improve the robustness of AI models against adversarial attacks by training them on adversarial examples."}
+{"id": "000000008", "text": "Federated learning allows training models across decentralized devices while preserving data privacy by not requiring raw data to be shared."}
+{"id": "000000009", "text": "Graph neural networks have gained popularity for their ability to effectively model and analyze graph-structured data, such as social networks and molecular structures."}

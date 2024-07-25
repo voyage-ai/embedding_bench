@@ -137,7 +137,7 @@ def main():
             embed_corpus(corpus, model, client, collection_name)
             
             # Perform queries and save results
-            retrieved_dict = run_queries(queries, model, client, collection_name)
+            retrieved_dict = run_queries(queries, model, client, collection_name, config.topk)
             with open(f'{config.meta_data_path}/{collection_name}.json', 'w') as f:
                 f.write(json.dumps(retrieved_dict))
                 
